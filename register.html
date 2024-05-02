@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width">
+    <title>Registration page</title>
+   <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="hero">
+		<nav>
+		<h2 class="logo"><a href="index.html">About<span> me</span></h2>
+			<ul>
+				<li><a href="index.html">About Me</a></li>
+				<li><a href="contact me.html">Contact page</a></li>
+        <li><a href="Calculator.html">Calculator</a></li>
+			</ul>
+      <a href="register.html" class="btn">Register</a>
+			<a href="Login.html" class="btn">Login</a>
+		</nav>
+    
+    <div class="registration form">
+      <form action="action_page.php">
+        <div class="container">
+          <h1>Register</h1>
+          <p>Kindly fill this form to create an account.</p>
+          <hr>
+          <label for="fname"><b>First Name</b></label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter your first name.." required>
+          <label for="lname"><b>Last Name</b></label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter your surname.." required>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+          <label for="Country">Country</label>
+          <input type="text" id="country" name="country" placeholder="Your country.." required>
+          <label for="Gender"><b>Gender</b></label>
+        <select id="Gender" name="Gender" required >
+          <option value="" disabled selected>Choose gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Non-binary">Non-binary</option>
+          <option value="Undisclosed">Prefer not to say</option>
+          <label for="psw"><b>Password</b></label>
+          <input type="text" placeholder="Enter Password" name="psw" id="psw" required>
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="text" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+    </div>
+  <div class="container signin">
+    <p>Existing user? <a href="Login.html">Sign in</a>.</p>
+  </div>
+</form
+				
+			</div>
+  	<!------footer start--------->
+	<footer>
+		<p>Emmanuel Paul</p>
+		<p>Let's socialise</p>
+		<div class="social">
+			<a href="https://www.facebook.com/emmanuel.paul.96387/"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.linkedin.com/in/emmanuel-paul-b39778157/"><i class="fab fa-linkedin"></i></a>
+			<a href="https://twitter.com/eruskkii"><i class="fab fa-twitter"></i></a>
+		</div>
+		</footer>
+
+  <script src="https://kit.fontawesome.com/91fc115ef2.js" crossorigin="anonymous"></script>
+</body>
+</html>
